@@ -11,13 +11,12 @@
 }
 
 .fixed {
-    position: fixed;
+    /* position: fixed;
     top: 0;
-    left: 0;
+    left: 0; */
     width: 100vw;
     height: 70px;
     background-color: rgb(245,248,250);
-
 }
 
 .navbar {
