@@ -11,8 +11,13 @@
 }
 
 .fixed {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
     height: 70px;
     background-color: rgb(245,248,250);
+
 }
 
 .navbar {
@@ -53,42 +58,130 @@
 }
 
 .container {
+    font-family: 'Rubik', sans-serif;
     width: 70%;
     max-width: 1200px;
     margin: 0 auto;
         /* da cancellare */
     height: 100%;
-    border: 1px solid black;
+    /* border: 1px solid black; */
 }
 /* controllare le altezze */
 /* FINE MACROSTRUTTURA */
 
 /* MENU FISSO */
+.selettore-lingua{
+    float: left;
+    line-height: 70px;
+    padding-right: 20px;
+}
+
+.selettore-lingua hr {
+    display: inline;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.login {
+    float: right;
+    line-height: 70px;
+}
+
+.login i {
+    color: rgb(9,167,191)
+}
+
+button.log {
+    font-family: 'Rubik', sans-serif;
+    background-color: white;
+    border: 1px solid rgb(255,122,89);
+    color:  rgb(255,122,89);
+    border-radius: 5px;
+    padding: 10px 10px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+button.free {
+    color: white;
+    background-color: rgb(255,122,89);
+    border: none;
+    border-radius: 5px;
+    padding: 10px 10px;
+}
+/* MENU NAV */
 /* Valutare se mettere img senza contenitore */
 #logo {
     width: 15%;
     height: 100%;
     float: left;
     /* da cancellare */
-    border: 1px solid red;
+    /* border: 1px solid red; */
+}
+
+#logo img {
+    width: 136px;
+    height: 62px;
+    position: relative;
+    top: 4px;
+    object-fit: cover;
+    object-position: center;
 }
 
 .menu {
     width: 50%;
     height: 100%;
     float: right;
+    line-height: 70px;
+    font-size: 15px;
+    /* padding-left: 20px; */
     /* da cancellare */
-    border: 1px solid red;
-
+    /* border: 1px solid red; */
 }
-/* FINE MENU FISSO */
+
+.menu li {
+    display: inline;
+    padding: 6px;
+}
+/* FINE MENU NAV */
 
 /* HEADER */
 .jumbotron {
     width: 50%;
     height: 100%;
+    position: relative;
     /* da cancellare */
-    border: 1px solid red;
+    /* border: 1px solid red; */
+}
+
+.testo-jumbotron {
+    position: absolute;
+    top: 50%;
+    transform: translate( 0, -50%);
+}
+
+h1 {
+    margin-bottom: 20px;
+    font-size: 40px;
+}
+
+p.grande {
+    font-size: 15px;
+    margin-bottom: 30px;
+}
+
+.GetHubspotFree {
+    font-size: 15px;
+    color: white;
+    background-color: rgb(255,122,89);
+    border: none;
+    border-radius: 5px;
+    padding: 13px 20px;
+    margin-bottom: 30px;
+}
+
+p.piccolo {
+    font-size: 10px;
 }
 /* FINE HEADER */
 
@@ -262,3 +355,4 @@ hr {
     height: 100%;
     border:  1px solid white;
 }
+/* fine footer */
