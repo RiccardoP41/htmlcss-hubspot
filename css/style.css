@@ -28,6 +28,8 @@
 .azzurro {
     height: 70px;
     background-color: rgb(169,234,226);
+    border-top: 3px solid rgb(51,71,92);
+    border-bottom: 3px solid rgb(51,71,92);
 }
 
 .grigio {
@@ -58,11 +60,205 @@
     height: 100%;
     border: 1px solid black;
 }
-
+/* controllare le altezze */
 /* FINE MACROSTRUTTURA */
 
+/* MENU FISSO */
 /* Valutare se mettere img senza contenitore */
-
 #logo {
-    
+    width: 15%;
+    height: 100%;
+    float: left;
+    /* da cancellare */
+    border: 1px solid red;
+}
+
+.menu {
+    width: 50%;
+    height: 100%;
+    float: right;
+    /* da cancellare */
+    border: 1px solid red;
+
+}
+/* FINE MENU FISSO */
+
+/* HEADER */
+.jumbotron {
+    width: 50%;
+    height: 100%;
+    /* da cancellare */
+    border: 1px solid red;
+}
+/* FINE HEADER */
+
+/* MAIN PRIMA SECTION */
+.megabox {
+    width: 100%;
+    /* da cancellare */
+    height: 50%;
+    border: 1px solid yellow;
+}
+
+.horizontal {
+    width: 100%;
+    height: 50%;
+    /* da cancellare */
+    border: 1px solid red;
+}
+
+.box {
+    width: 33.3333%;
+    height: 100%;
+    float: left;
+    /* position: relative; */
+    /* canc */
+    border: 1px solid blue;
+}
+
+.uno {
+    padding-top: 20px;
+    padding-right: 10px;
+    padding-bottom: 20px;
+}
+
+.due {
+    padding: 20px 10px;
+}
+
+.tre {
+    padding-top: 20px;
+    padding-left: 10px;
+    padding-bottom: 20px;
+}
+
+.minibox {
+    width: 100%;
+    height: 100%;
+    border: 1px solid green;
+}
+/* FINE PRIMA SECTION MAIN */
+
+/* MAIN SECONDA SECTION */
+.banner {
+    /* canc */
+    height: 33.3333%;
+    border: 1px solid black;
+}
+
+.tabella {
+    /* canc */
+    height: 55%;
+    border: 1px solid yellow;
+}
+
+.card {
+    width: 25%;
+    height: 50%;
+    float: left;
+    border: 1px solid red;
+}
+/* fine seconda section */
+
+/* MAIN TERZA SECTION */
+.row-first{
+    /* canc */
+    height: 40%;
+    border: 1px solid blue;
+}
+
+.customers {
+    width: 45%;
+    float: left;
+    /* canc */
+    border: 1px solid pink;
+    height: 100%;
+}
+
+.loghi {
+    width: 50%;
+    float: left;
+        /* canc */
+    border: 1px solid green;
+    height: 100%;
+}
+
+.row-second {
+    /* canc */
+    height: 60%;
+    border: 1px solid blue;
+}
+
+.start {
+    width: 45%;
+    float: left;
+    /* canc */
+    height: 100%;
+    border: 1px solid green;
+}
+
+.smile {
+    width: 55%;
+    float: left;
+    /* canc */
+    height: 100%;
+    border: 1px solid pink;
+}
+/* fine terza section main */
+
+/* INIZIO FOOTER */
+.row-prima {
+    /* canc */
+    height: 60%;
+    border: 1px solid white;
+
+}
+
+.elenco {
+    width: 22%;
+    display: inline-block;
+    padding-left: 20px;
+    /* canc */
+    height: 100%;
+    border: 1px solid yellow;
+}
+
+.row-seconda {
+    margin-top: 40px;
+    /* canc */
+    height: 40%;
+    border: 1px solid white;
+}
+
+.lingue {
+    /* canc */
+    height: 20%;
+    border: 1px solid yellow;
+}
+
+hr {
+    color: white;
+    margin: 10px 0;
+}
+
+.pièdipagina {
+    /* cancellare */
+    height: 80%;
+    border: 1px solid orange;
+}
+
+.copyright {
+    width: 30%;
+    float: left;
+    /* canc */
+    height: 100%;
+    border: 1px solid white;
+}
+
+.legal {
+    width: 30%;
+    float: right;
+    /* canc */
+    height: 100%;
+    border:  1px solid white;
 }
