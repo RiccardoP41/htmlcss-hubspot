@@ -9,3 +9,60 @@
    display: table;
    clear: both;
 }
+
+.fixed {
+    height: 70px;
+    background-color: rgb(245,248,250);
+}
+
+.navbar {
+    height: 70px;
+    background-color: rgb(255,255,255);
+}
+
+.rosa {
+    height: 400px;
+    background-color: rgb(255,242,238);
+}
+
+.azzurro {
+    height: 70px;
+    background-color: rgb(169,234,226);
+}
+
+.grigio {
+    height: 800px;
+    background-color: rgb(245,248,250);
+}
+
+.sfumato {
+    height: 400px;
+    background-color: rgb(0,175,178);
+}
+
+.bianco {
+    height: 400px;
+    background-color: #FFFFFF;
+}
+
+.blu {
+    height: 400px;
+    background-color: rgb(51,71,91);
+}
+
+.container {
+    width: 70%;
+    max-width: 1200px;
+    margin: 0 auto;
+        /* da cancellare */
+    height: 100%;
+    border: 1px solid black;
+}
+
+/* FINE MACROSTRUTTURA */
+
+/* Valutare se mettere img senza contenitore */
+
+#logo {
+    
+}
