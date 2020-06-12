@@ -49,8 +49,9 @@
 }
 
 .sfumato {
-    height: 400px;
+    height: 600px;
     background-color: rgb(0,175,178);
+    color: white;
 }
 
 .bianco {
@@ -335,9 +336,11 @@ p.piccolo {
     margin: 0 auto;
 
 }
+
 .minibox h3{
     margin: 10px 0 20px;
 }
+
 .minibox p {
     font-size: 13px;
     margin-bottom: 40px;
@@ -349,6 +352,7 @@ p.piccolo {
     display: inline-block;
 
 }
+
 .minibox ul {
     text-align: left;
     list-style: none;
@@ -363,6 +367,16 @@ p.piccolo {
     /* canc */
     height: 33.3333%;
     border: 1px solid black;
+    text-align: center;
+    padding: 40px;
+}
+
+.banner h2 {
+    margin-bottom: 20px;
+}
+
+.banner p {
+    font-size: 13px;
 }
 
 .tabella {
@@ -376,6 +390,29 @@ p.piccolo {
     height: 50%;
     float: left;
     border: 1px solid red;
+    object-position: center;
+    text-align: center;
+    padding: 20px 60px;
+}
+
+.card img {
+    width: auto;
+    height: 30px;
+    margin: 0 auto;
+    display: block;
+}
+
+.card strong{
+    display: inline-block;
+    font-size: 40px;
+}
+
+.card span {
+    position: relative;
+    bottom: 8px;
+}
+.card  p {
+    font-size: 13px;
 }
 /* fine seconda section */
 
