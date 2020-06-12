@@ -363,10 +363,11 @@ p.piccolo {
 /* FINE PRIMA SECTION MAIN */
 
 /* MAIN SECONDA SECTION */
+/* SISTEMARE IMMAGINI NELLA TABELLA */
 .banner {
     /* canc */
-    height: 33.3333%;
-    border: 1px solid black;
+    /* height: 33.3333%; */
+    /* border: 1px solid black; */
     text-align: center;
     padding: 40px;
 }
@@ -379,20 +380,14 @@ p.piccolo {
     font-size: 13px;
 }
 
-.tabella {
-    /* canc */
-    height: 55%;
-    border: 1px solid yellow;
-}
-
 .card {
     width: 25%;
-    height: 50%;
+    /* height: 50%; */
     float: left;
-    border: 1px solid red;
+    /* border: 1px solid red; */
     object-position: center;
     text-align: center;
-    padding: 20px 60px;
+    padding: 20px 50px;
 }
 
 .card img {
@@ -412,7 +407,15 @@ p.piccolo {
     bottom: 8px;
 }
 .card  p {
-    font-size: 13px;
+    font-size: 12px;
+}
+
+.one,.two,.three,.four {
+    border-bottom: 1px solid white;
+}
+
+.one,.two,.three,.five,.six,.seven {
+    border-right: 1px solid white;
 }
 /* fine seconda section */
 
