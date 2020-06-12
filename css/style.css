@@ -10,13 +10,15 @@
    clear: both;
 }
 
+/* problema con position: fixed */
 .fixed {
     /* position: fixed;
     top: 0;
-    left: 0; */
-    width: 100vw;
-    height: 70px;
+    left: 0;
+    width: 100%; */
+    height: 80px;
     background-color: rgb(245,248,250);
+    /* border: 1px solid blue; */
 }
 
 .navbar {
@@ -25,19 +27,24 @@
 }
 
 .rosa {
-    height: 400px;
+    height: 500px;
     background-color: rgb(255,242,238);
+    /* position: relative;
+    background-image: url(https://www.hubspot.com/hubfs/raw_assets/public/_Web%20Team%20Assets/Website/assets/svg/hero.svg);
+    background-position: bottom right;
+    background-size: 90% auto; */
 }
 
-.azzurro {
+
+/* .azzurro {
     height: 70px;
     background-color: rgb(169,234,226);
     border-top: 3px solid rgb(51,71,92);
     border-bottom: 3px solid rgb(51,71,92);
-}
+} */
 
 .grigio {
-    height: 800px;
+    height: 1000px;
     background-color: rgb(245,248,250);
 }
 
@@ -112,7 +119,7 @@ button.free {
 /* Valutare se mettere img senza contenitore */
 #logo {
     width: 15%;
-    height: 100%;
+    height: 99%;
     float: left;
     /* da cancellare */
     /* border: 1px solid red; */
@@ -123,7 +130,7 @@ button.free {
     height: 62px;
     position: relative;
     top: 4px;
-    object-fit: cover;
+    object-fit: contain;
     object-position: center;
 }
 
@@ -145,6 +152,9 @@ button.free {
 /* FINE MENU NAV */
 
 /* HEADER */
+
+
+
 .jumbotron {
     width: 50%;
     height: 100%;
@@ -188,15 +198,99 @@ p.piccolo {
 .megabox {
     width: 100%;
     /* da cancellare */
-    height: 50%;
-    border: 1px solid yellow;
+    /* height: 50%;
+    border: 1px solid yellow; */
 }
 
 .horizontal {
     width: 100%;
-    height: 50%;
+    /* height: 50%; */
     /* da cancellare */
-    border: 1px solid red;
+    /* border: 1px solid red; */
+}
+
+.powerful {
+    text-align: center;
+    object-position: center;
+    padding: 20px 0;
+}
+
+.powerful img {
+    width: 151px;
+    height: 115px;
+}
+
+ .powerful h2 {
+     margin-bottom: 20px;
+ }
+
+ .powerful p {
+     font-size: 13px;
+     padding: 0 120px;
+ }
+
+.free {
+    background-color: white;
+    border-radius: 5px;
+}
+.free-left {
+    width: 33.3333%;
+    /* height: 100%; */
+    object-position: center;
+    text-align: center;
+    float: left;
+    padding: 40px 0 40px;
+}
+
+.free-left img {
+    width: 130px;
+    height: 110px;
+    display: block;
+    margin: 0 auto;
+}
+
+.fullwidth .grigio button {
+    color: white;
+    background-color: rgb(255,122,89);
+    border: none;
+    border-radius: 5px;
+    padding: 10px 10px;
+}
+
+.free-right {
+    float: left;
+    width: 66.6666%;
+    /* height: 100%; */
+    padding: 40px 0 40px;
+}
+
+.free-right h3 {
+    margin-bottom: 20px;
+}
+
+.free-right p {
+    font-size: 13px;
+    margin-bottom: 20px;
+}
+
+.free-right strong {
+    font-size: 14px;
+
+}
+
+.free-right hr {
+    width: 60%;
+}
+
+.free-right li {
+    font-size: 13px;
+    display: inline;
+    padding-right: 10px;
+    margin-top: 20px;
+}
+
+.fullwidth .grigio li i {
+    color: rgb(255,122,89);
 }
 
 .box {
@@ -205,7 +299,7 @@ p.piccolo {
     float: left;
     /* position: relative; */
     /* canc */
-    border: 1px solid blue;
+
 }
 
 .uno {
@@ -226,8 +320,41 @@ p.piccolo {
 
 .minibox {
     width: 100%;
-    height: 100%;
-    border: 1px solid green;
+    /* height: 100%; */
+    /* border: 1px solid green; */
+    text-align: center;
+    object-position: center;
+    padding: 20px;
+    background-color: white;
+    border-radius: 5px;
+}
+
+.minibox img {
+    width: auto;
+    height: 102px;
+    margin: 0 auto;
+
+}
+.minibox h3{
+    margin: 10px 0 20px;
+}
+.minibox p {
+    font-size: 13px;
+    margin-bottom: 40px;
+}
+
+.minibox strong {
+    font-size: 14px;
+    margin: 20px 0;
+    display: inline-block;
+
+}
+.minibox ul {
+    text-align: left;
+    list-style: none;
+    font-size: 13px;
+    margin-bottom: 40px;
+
 }
 /* FINE PRIMA SECTION MAIN */
 
