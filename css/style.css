@@ -49,13 +49,14 @@
 }
 
 .sfumato {
-    height: 600px;
-    background-color: rgb(0,175,178);
+    height: 500px;
+    background-image: linear-gradient(to top right, rgb(0,164,189), rgb(0,188,165));
     color: white;
+
 }
 
 .bianco {
-    height: 400px;
+    height: 500px;
     background-color: #FFFFFF;
 }
 
@@ -250,7 +251,7 @@ p.piccolo {
     margin: 0 auto;
 }
 
-.fullwidth .grigio button {
+.fullwidth .grigio, .bianco button {
     color: white;
     background-color: rgb(255,122,89);
     border: none;
@@ -429,9 +430,20 @@ p.piccolo {
 .customers {
     width: 45%;
     float: left;
+    text-align: center;
+    padding: 40px 130px;
     /* canc */
-    border: 1px solid pink;
-    height: 100%;
+    /* border: 1px solid pink;
+    height: 100%; */
+}
+
+.customers h3 {
+    font-size: 35px;
+    margin-bottom: 20px;
+}
+
+.customers p {
+    font-size: 13px;
 }
 
 .loghi {
@@ -442,26 +454,57 @@ p.piccolo {
     height: 100%;
 }
 
+.carta {
+    width: 25%;
+    height: 50%;
+    /* border: 1px solid black; */
+    float: left;
+    object-position: center;
+}
+
+.carta img {
+    height: 13px;
+    width: auto;
+    margin: 0 auto;
+
+}
+
 .row-second {
     /* canc */
-    height: 60%;
-    border: 1px solid blue;
+    /* height: 60%;
+    border: 1px solid blue; */
 }
 
 .start {
     width: 45%;
     float: left;
+    padding: 20px 0;
     /* canc */
-    height: 100%;
-    border: 1px solid green;
+    /* height: 100%;
+    border: 1px solid green; */
 }
 
+.start p {
+    margin: 40px 0;
+    font-size: 13px;
+}
+
+.start .fondo  {
+    font-size: 10px;
+}
 .smile {
     width: 55%;
     float: left;
-    /* canc */
-    height: 100%;
-    border: 1px solid pink;
+        /* canc */
+    /* height: 100%;
+    border: 1px solid pink; */
+}
+
+.smile img {
+    position: relative;
+    left: 290px;
+    width: auto;
+    height: 270px;
 }
 /* fine terza section main */
 
