@@ -12,16 +12,18 @@
 
 /* problema con position: fixed */
 .fixed {
-    /* position: fixed;
+    position: fixed;
     top: 0;
     left: 0;
-    width: 100%; */
+    width: 100%;
     height: 80px;
     background-color: rgb(245,248,250);
-    /* border: 1px solid blue; */
+    border-bottom: 1px solid rgb(203,214,226);
+    z-index: 1;
 }
 
 .navbar {
+    margin-top: 80px;
     height: 70px;
     background-color: rgb(255,255,255);
 }
@@ -222,11 +224,11 @@ p.piccolo {
     height: 115px;
 }
 
- .powerful h2 {
+.powerful h2 {
      margin-bottom: 20px;
  }
 
- .powerful p {
+.powerful p {
      font-size: 13px;
      padding: 0 120px;
  }
@@ -433,8 +435,8 @@ p.piccolo {
     text-align: center;
     padding: 40px 130px;
     /* canc */
-    /* border: 1px solid pink;
-    height: 100%; */
+    border: 1px solid pink;
+    height: 100%;
 }
 
 .customers h3 {
@@ -449,30 +451,38 @@ p.piccolo {
 .loghi {
     width: 50%;
     float: left;
-        /* canc */
+    padding: 20px;
+    /* canc */
     border: 1px solid green;
-    height: 100%;
+    height: 50%;
 }
 
 .carta {
+    position: relative;
     width: 25%;
     height: 50%;
+    /* padding: 10px 0; */
     /* border: 1px solid black; */
     float: left;
     object-position: center;
 }
 
 .carta img {
-    height: 13px;
-    width: auto;
-    margin: 0 auto;
+    /* position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); */
+    height: auto;
+    width: 100%;
+    /* margin: 0 auto; */
+    padding: 10px;
 
 }
 
 .row-second {
     /* canc */
-    /* height: 60%;
-    border: 1px solid blue; */
+    height: 60%;
+    border: 1px solid blue;
 }
 
 .start {
@@ -480,8 +490,8 @@ p.piccolo {
     float: left;
     padding: 20px 0;
     /* canc */
-    /* height: 100%;
-    border: 1px solid green; */
+    height: 100%;
+    border: 1px solid green;
 }
 
 .start p {
@@ -496,13 +506,13 @@ p.piccolo {
     width: 55%;
     float: left;
         /* canc */
-    /* height: 100%;
-    border: 1px solid pink; */
+    height: 100%;
+    border: 1px solid pink;
 }
 
 .smile img {
     position: relative;
-    left: 290px;
+    left: 300px;
     width: auto;
     height: 270px;
 }
