@@ -63,7 +63,7 @@
 }
 
 .blu {
-    height: 400px;
+    height: 500px;
     background-color: rgb(51,71,91);
 }
 
@@ -425,8 +425,8 @@ p.piccolo {
 /* MAIN TERZA SECTION */
 .row-first{
     /* canc */
-    height: 40%;
-    border: 1px solid blue;
+    /* height: 40%;
+    border: 1px solid blue; */
 }
 
 .customers {
@@ -435,8 +435,8 @@ p.piccolo {
     text-align: center;
     padding: 40px 130px;
     /* canc */
-    border: 1px solid pink;
-    height: 100%;
+    /* border: 1px solid pink;
+    height: 100%; */
 }
 
 .customers h3 {
@@ -453,36 +453,35 @@ p.piccolo {
     float: left;
     padding: 20px;
     /* canc */
-    border: 1px solid green;
-    height: 50%;
+    /* border: 1px solid green; */
+    /* height: 50%; */
 }
 
 .carta {
     position: relative;
     width: 25%;
     height: 50%;
-    /* padding: 10px 0; */
-    /* border: 1px solid black; */
+    padding: 20px;
     float: left;
     object-position: center;
 }
 
 .carta img {
-    /* position: absolute;
+    position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%); */
+    transform: translate(-50%, -50%);
     height: auto;
     width: 100%;
     /* margin: 0 auto; */
-    padding: 10px;
+    padding: 20px;
 
 }
 
 .row-second {
     /* canc */
     height: 60%;
-    border: 1px solid blue;
+    /* border: 1px solid blue; */
 }
 
 .start {
@@ -491,7 +490,7 @@ p.piccolo {
     padding: 20px 0;
     /* canc */
     height: 100%;
-    border: 1px solid green;
+    /* border: 1px solid green; */
 }
 
 .start p {
@@ -507,7 +506,7 @@ p.piccolo {
     float: left;
         /* canc */
     height: 100%;
-    border: 1px solid pink;
+    /* border: 1px solid pink; */
 }
 
 .smile img {
@@ -521,31 +520,71 @@ p.piccolo {
 /* INIZIO FOOTER */
 .row-prima {
     /* canc */
-    height: 60%;
-    border: 1px solid white;
-
+    /* height: 60%; */
+    /* border: 1px solid white; */
+    color: white;
+    font-size: 13px;
+    padding-top: 20px;
 }
 
+.row-prima h4 {
+    margin-bottom: 20px;
+}
+
+.blu ul {
+    list-style: none;
+}
+
+.row-prima li {
+    padding: 5px 0;
+}
+
+.blu a {
+    font-family: 'Rubik', sans-serif;
+    color: white;
+    text-decoration: none;
+}
 .elenco {
     width: 22%;
-    display: inline-block;
+    float: left;
     padding-left: 20px;
     /* canc */
-    height: 100%;
-    border: 1px solid yellow;
+    /* height: 100%; */
+    /* border: 1px solid yellow; */
 }
 
+.elenco button {
+    color: rgb(51,71,91);
+    background-color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 10px;
+    margin: 15px 0;
+}
+
+.social li {
+    display: inline;
+    padding: 0 10px;
+}
 .row-seconda {
-    margin-top: 40px;
+    /* margin-top: 40px; */
     /* canc */
     height: 40%;
-    border: 1px solid white;
+    /* border: 1px solid white; */
 }
 
 .lingue {
     /* canc */
-    height: 20%;
-    border: 1px solid yellow;
+    /* height: 20%;
+    border: 1px solid yellow; */
+    text-align: center;
+    font-size: 15px;
+    margin-top: 40px;
+}
+
+.lingue li {
+    display: inline;
+    padding: 0 10px;
 }
 
 hr {
@@ -554,24 +593,48 @@ hr {
 }
 
 .pièdipagina {
+    padding: 30px 0;
     /* cancellare */
-    height: 80%;
-    border: 1px solid orange;
+    /* height: 80%;
+    border: 1px solid orange; */
 }
 
 .copyright {
     width: 30%;
     float: left;
+    color: white;
+    /* padding: 20px 0; */
     /* canc */
-    height: 100%;
-    border: 1px solid white;
+    /* height: 100%;
+    border: 1px solid white; */
 }
-
+ .copyright p {
+     font-size: 13px;
+ }
 .legal {
+    font-size: 13px;
     width: 30%;
     float: right;
     /* canc */
-    height: 100%;
-    border:  1px solid white;
+    /* height: 100%;
+    border:  1px solid white; */
+}
+
+.legal ul {
+    float: right;
+}
+
+.stuff {
+    margin-right: 20px;
+}
+
+
+
+.legal li {
+    display: inline;
+}
+
+a:hover{
+    color: lightblue;
 }
 /* fine footer */
