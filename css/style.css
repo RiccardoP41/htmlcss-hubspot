@@ -16,7 +16,7 @@
     top: 0;
     left: 0;
     width: 100%;
-    height: 80px;
+    /* height: 80px; */
     background-color: rgb(245,248,250);
     border-bottom: 1px solid rgb(203,214,226);
     z-index: 1;
@@ -24,26 +24,33 @@
 
 .navbar {
     margin-top: 80px;
-    height: 70px;
+    /* height: 70px; */
     background-color: rgb(255,255,255);
 }
 
 .rosa {
     height: 500px;
     background-color: rgb(255,242,238);
-    /* position: relative;
-    background-image: url(https://www.hubspot.com/hubfs/raw_assets/public/_Web%20Team%20Assets/Website/assets/svg/hero.svg);
+    /* background-image: url(https://www.hubspot.com/hubfs/raw_assets/public/_Web%20Team%20Assets/Website/assets/svg/hero.svg);
     background-position: bottom right;
-    background-size: 90% auto; */
+    background-size: 66% auto;
+    background-repeat: no-repeat; */
+}
+.azzurro img {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    height: 434px;
 }
 
 
-/* .azzurro {
+.azzurro {
+    position: relative;
     height: 70px;
     background-color: rgb(169,234,226);
     border-top: 3px solid rgb(51,71,92);
     border-bottom: 3px solid rgb(51,71,92);
-} */
+}
 
 .grigio {
     height: 1000px;
@@ -72,10 +79,13 @@
     width: 70%;
     max-width: 1200px;
     margin: 0 auto;
+    position: relative;
         /* da cancellare */
     height: 100%;
     /* border: 1px solid black; */
 }
+
+
 /* controllare le altezze */
 /* FINE MACROSTRUTTURA */
 
@@ -157,7 +167,12 @@ button.free {
 
 /* HEADER */
 
+/* .container img {
+    position: absolute;
+    top: 50%;
+    left:50%;
 
+} */
 
 .jumbotron {
     width: 50%;
@@ -196,6 +211,7 @@ p.grande {
 p.piccolo {
     font-size: 10px;
 }
+
 /* FINE HEADER */
 
 /* MAIN PRIMA SECTION */
@@ -237,6 +253,7 @@ p.piccolo {
     background-color: white;
     border-radius: 5px;
 }
+
 .free-left {
     width: 33.3333%;
     /* height: 100%; */
@@ -253,7 +270,7 @@ p.piccolo {
     margin: 0 auto;
 }
 
-.fullwidth .grigio, .bianco button {
+button {
     color: white;
     background-color: rgb(255,122,89);
     border: none;
@@ -275,6 +292,12 @@ p.piccolo {
 .free-right p {
     font-size: 13px;
     margin-bottom: 20px;
+    padding-right: 60px;
+}
+
+.hr{
+    position: relative;
+    margin-bottom: 20px;
 }
 
 .free-right strong {
@@ -284,6 +307,10 @@ p.piccolo {
 
 .free-right hr {
     width: 60%;
+    position: absolute;
+    top: 0;
+    left: 60%;
+    transform: translate(-50%, -50%);
 }
 
 .free-right li {
@@ -293,7 +320,7 @@ p.piccolo {
     margin-top: 20px;
 }
 
-.fullwidth .grigio li i {
+.grigio li i {
     color: rgb(255,122,89);
 }
 
@@ -409,6 +436,7 @@ p.piccolo {
     position: relative;
     bottom: 8px;
 }
+
 .card  p {
     font-size: 12px;
 }
@@ -501,6 +529,7 @@ p.piccolo {
 .start .fondo  {
     font-size: 10px;
 }
+
 .smile {
     width: 55%;
     float: left;
@@ -544,10 +573,11 @@ p.piccolo {
     color: white;
     text-decoration: none;
 }
+
 .elenco {
     width: 22%;
     float: left;
-    padding-left: 20px;
+    padding-right: : 20px;
     /* canc */
     /* height: 100%; */
     /* border: 1px solid yellow; */
@@ -608,9 +638,11 @@ hr {
     /* height: 100%;
     border: 1px solid white; */
 }
+
  .copyright p {
      font-size: 13px;
  }
+
 .legal {
     font-size: 13px;
     width: 30%;
