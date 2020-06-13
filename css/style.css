@@ -10,13 +10,12 @@
    clear: both;
 }
 
-/* problema con position: fixed */
+
 .fixed {
     position: fixed;
     top: 0;
     left: 0;
     width: 100%;
-    /* height: 80px; */
     background-color: rgb(245,248,250);
     border-bottom: 1px solid rgb(203,214,226);
     z-index: 1;
@@ -24,17 +23,13 @@
 
 .navbar {
     margin-top: 80px;
-    /* height: 70px; */
     background-color: rgb(255,255,255);
 }
 
 .rosa {
     height: 500px;
     background-color: rgb(255,242,238);
-    /* background-image: url(https://www.hubspot.com/hubfs/raw_assets/public/_Web%20Team%20Assets/Website/assets/svg/hero.svg);
-    background-position: bottom right;
-    background-size: 66% auto;
-    background-repeat: no-repeat; */
+
 }
 .azzurro img {
     position: absolute;
@@ -58,19 +53,15 @@
 }
 
 .sfumato {
-    height: 500px;
     background-image: linear-gradient(to top right, rgb(0,164,189), rgb(0,188,165));
     color: white;
-
 }
 
 .bianco {
-    height: 500px;
     background-color: #FFFFFF;
 }
 
 .blu {
-    height: 500px;
     background-color: rgb(51,71,91);
 }
 
@@ -80,13 +71,9 @@
     max-width: 1200px;
     margin: 0 auto;
     position: relative;
-        /* da cancellare */
     height: 100%;
-    /* border: 1px solid black; */
 }
 
-
-/* controllare le altezze */
 /* FINE MACROSTRUTTURA */
 
 /* MENU FISSO */
@@ -130,13 +117,10 @@ button.free {
     padding: 10px 10px;
 }
 /* MENU NAV */
-/* Valutare se mettere img senza contenitore */
 #logo {
     width: 15%;
     height: 99%;
     float: left;
-    /* da cancellare */
-    /* border: 1px solid red; */
 }
 
 #logo img {
@@ -154,9 +138,6 @@ button.free {
     float: right;
     line-height: 70px;
     font-size: 15px;
-    /* padding-left: 20px; */
-    /* da cancellare */
-    /* border: 1px solid red; */
 }
 
 .menu li {
@@ -167,19 +148,11 @@ button.free {
 
 /* HEADER */
 
-/* .container img {
-    position: absolute;
-    top: 50%;
-    left:50%;
-
-} */
 
 .jumbotron {
     width: 50%;
     height: 100%;
     position: relative;
-    /* da cancellare */
-    /* border: 1px solid red; */
 }
 
 .testo-jumbotron {
@@ -215,19 +188,9 @@ p.piccolo {
 /* FINE HEADER */
 
 /* MAIN PRIMA SECTION */
-.megabox {
-    width: 100%;
-    /* da cancellare */
-    /* height: 50%;
-    border: 1px solid yellow; */
-}
 
-.horizontal {
-    width: 100%;
-    /* height: 50%; */
-    /* da cancellare */
-    /* border: 1px solid red; */
-}
+
+
 
 .powerful {
     text-align: center;
@@ -256,7 +219,6 @@ p.piccolo {
 
 .free-left {
     width: 33.3333%;
-    /* height: 100%; */
     object-position: center;
     text-align: center;
     float: left;
@@ -281,7 +243,6 @@ button {
 .free-right {
     float: left;
     width: 66.6666%;
-    /* height: 100%; */
     padding: 40px 0 40px;
 }
 
@@ -302,7 +263,6 @@ button {
 
 .free-right strong {
     font-size: 14px;
-
 }
 
 .free-right hr {
@@ -328,9 +288,7 @@ button {
     width: 33.3333%;
     height: 100%;
     float: left;
-    /* position: relative; */
-    /* canc */
-
+    margin-bottom: 20px;
 }
 
 .uno {
@@ -351,8 +309,6 @@ button {
 
 .minibox {
     width: 100%;
-    /* height: 100%; */
-    /* border: 1px solid green; */
     text-align: center;
     object-position: center;
     padding: 20px;
@@ -364,7 +320,6 @@ button {
     width: auto;
     height: 102px;
     margin: 0 auto;
-
 }
 
 .minibox h3{
@@ -395,9 +350,6 @@ button {
 /* MAIN SECONDA SECTION */
 /* SISTEMARE IMMAGINI NELLA TABELLA */
 .banner {
-    /* canc */
-    /* height: 33.3333%; */
-    /* border: 1px solid black; */
     text-align: center;
     padding: 40px;
 }
@@ -410,11 +362,13 @@ button {
     font-size: 13px;
 }
 
+.tabella {
+padding-bottom: 60px; 
+}
+
 .card {
     width: 25%;
-    /* height: 50%; */
     float: left;
-    /* border: 1px solid red; */
     object-position: center;
     text-align: center;
     padding: 20px 50px;
@@ -451,20 +405,12 @@ button {
 /* fine seconda section */
 
 /* MAIN TERZA SECTION */
-.row-first{
-    /* canc */
-    /* height: 40%;
-    border: 1px solid blue; */
-}
 
 .customers {
     width: 45%;
     float: left;
     text-align: center;
     padding: 40px 130px;
-    /* canc */
-    /* border: 1px solid pink;
-    height: 100%; */
 }
 
 .customers h3 {
@@ -480,9 +426,6 @@ button {
     width: 50%;
     float: left;
     padding: 20px;
-    /* canc */
-    /* border: 1px solid green; */
-    /* height: 50%; */
 }
 
 .carta {
@@ -501,24 +444,13 @@ button {
     transform: translate(-50%, -50%);
     height: auto;
     width: 100%;
-    /* margin: 0 auto; */
     padding: 20px;
-
-}
-
-.row-second {
-    /* canc */
-    height: 60%;
-    /* border: 1px solid blue; */
 }
 
 .start {
     width: 45%;
     float: left;
     padding: 20px 0;
-    /* canc */
-    height: 100%;
-    /* border: 1px solid green; */
 }
 
 .start p {
@@ -533,9 +465,6 @@ button {
 .smile {
     width: 55%;
     float: left;
-        /* canc */
-    height: 100%;
-    /* border: 1px solid pink; */
 }
 
 .smile img {
@@ -548,9 +477,6 @@ button {
 
 /* INIZIO FOOTER */
 .row-prima {
-    /* canc */
-    /* height: 60%; */
-    /* border: 1px solid white; */
     color: white;
     font-size: 13px;
     padding-top: 20px;
@@ -577,10 +503,7 @@ button {
 .elenco {
     width: 22%;
     float: left;
-    padding-right: : 20px;
-    /* canc */
-    /* height: 100%; */
-    /* border: 1px solid yellow; */
+    padding-right: 20px;
 }
 
 .elenco button {
@@ -596,17 +519,8 @@ button {
     display: inline;
     padding: 0 10px;
 }
-.row-seconda {
-    /* margin-top: 40px; */
-    /* canc */
-    height: 40%;
-    /* border: 1px solid white; */
-}
 
 .lingue {
-    /* canc */
-    /* height: 20%;
-    border: 1px solid yellow; */
     text-align: center;
     font-size: 15px;
     margin-top: 40px;
@@ -624,19 +538,12 @@ hr {
 
 .pièdipagina {
     padding: 30px 0;
-    /* cancellare */
-    /* height: 80%;
-    border: 1px solid orange; */
 }
 
 .copyright {
     width: 30%;
     float: left;
     color: white;
-    /* padding: 20px 0; */
-    /* canc */
-    /* height: 100%;
-    border: 1px solid white; */
 }
 
  .copyright p {
@@ -647,9 +554,6 @@ hr {
     font-size: 13px;
     width: 30%;
     float: right;
-    /* canc */
-    /* height: 100%;
-    border:  1px solid white; */
 }
 
 .legal ul {
@@ -659,8 +563,6 @@ hr {
 .stuff {
     margin-right: 20px;
 }
-
-
 
 .legal li {
     display: inline;
