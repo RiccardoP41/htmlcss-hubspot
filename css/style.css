@@ -48,7 +48,7 @@
 }
 
 .grigio {
-    height: 1000px;
+    /* height: 1000px; */
     background-color: rgb(245,248,250);
 }
 
@@ -150,6 +150,7 @@ button.free {
 
 
 .jumbotron {
+    /* float: left; */
     width: 50%;
     height: 100%;
     position: relative;
@@ -286,7 +287,6 @@ button {
 
 .box {
     width: 33.3333%;
-    height: 100%;
     float: left;
     margin-bottom: 20px;
 }
@@ -363,7 +363,7 @@ button {
 }
 
 .tabella {
-padding-bottom: 60px; 
+padding-bottom: 60px;
 }
 
 .card {
