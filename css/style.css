@@ -83,6 +83,57 @@
     padding: 0 20px;
 }
 
+.aba {
+    display: inline-block;
+    position: relative;
+}
+
+.aba ul:hover .aba{
+    display: block;
+
+}
+
+.aba ul {
+    list-style: none;
+    position: absolute;
+    width: 100%;
+    line-height: normal;
+    top: 90%;
+    left: 0;
+    padding: 10px 0;
+    background-color: white;
+    border: 1px solid rgb(203,214,226);
+    display: none;
+}
+
+.aba li {
+    padding: 5px;
+}
+
+.aba li:hover {
+    background-color: azure;
+}
+
+.aba li a {
+    text-decoration: none;
+    font-size: 12px;
+    color: black;
+}
+
+.freccia {
+    width: 10px;
+    height: 10px;
+    position: absolute;
+    top: 83%;
+    left: 75%;
+    background-color: white;
+    transform: rotate(45deg);
+    border-top: 1px solid rgb(203,214,226);
+    border-left: 1px solid rgb(203,214,226);
+    display: none;
+}
+
+
 .selettore-lingua hr {
     display: inline;
     margin-left: 15px;
